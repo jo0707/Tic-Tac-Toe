@@ -51,6 +51,6 @@ import FadeMotion from "./motion/FadeMotion.vue";
                 <ScoreCard :type="'Computer'" :count="xWinCount"/>
             </div>
         </div>
-        <button @click="reset()" class="-md:visible w-full px-6 py-4 rounded shadow bg-cool-gray-700 transition transform hover:scale-110 hover:shadow-lg hover:bg-cool-gray-600">RESET</button>
+        <button @click="reset()" class="hidden md:visible w-full px-6 py-4 rounded shadow bg-cool-gray-700 transition transform hover:scale-110 hover:shadow-lg hover:bg-cool-gray-600">RESET</button>
     </div>
 </template>
